@@ -3,7 +3,7 @@
     "description": "Search suggestions configuration for M1",
     "type": "magento-module",
     "license": "GPL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "authors":[
         {
             "name":"Simon Laubet-Xavier",
