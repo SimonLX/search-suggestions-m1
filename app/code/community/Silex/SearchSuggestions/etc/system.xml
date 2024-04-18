@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <search>
+                    <fields>
+                        <suggestions_enabled translate="label">
+                            <label>Enable search suggestions</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>70</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </suggestions_enabled>
+                        <suggestions_limit translate="label comment">
+                            <label>Suggestions size limit</label>
+                            <frontend_type>text</frontend_type>
+                            <comment>Limit of the number of suggestions displayed. Fill "0" to not limit suggestions count.</comment>
+                            <sort_order>71</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends><suggestions_enabled>1</suggestions_enabled></depends>
+                        </suggestions_limit>
+                    </fields>
+                </search>
+            </groups>
+        </catalog>
+    </sections>
+</config>

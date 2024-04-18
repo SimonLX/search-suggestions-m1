@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Silex_SearchSuggestions>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Adminhtml/>
+                <Mage_CatalogSearch/>
+            </depends>
+        </Silex_SearchSuggestions>
+    </modules>
+</config>

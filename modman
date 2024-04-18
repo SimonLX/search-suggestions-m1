@@ -1,0 +1,6 @@
+app/code/community/Silex/SearchSuggestions/                          app/code/community/Silex/SearchSuggestions/
+app/design/frontend/base/default/layout/silex/search_suggestions.xml app/design/frontend/base/default/layout/silex/search_suggestions.xml
+app/design/frontend/base/default/template/silex/search_suggestions/  app/design/frontend/base/default/template/silex/search_suggestions/
+app/etc/modules/Silex_SearchSuggestions.xml                          app/etc/modules/Silex_SearchSuggestions.xml
+app/locale/en_US/Silex_SearchSuggestions.csv                         app/locale/en_US/Silex_SearchSuggestions.csv
+app/locale/fr_FR/Silex_SearchSuggestions.csv                         app/locale/fr_FR/Silex_SearchSuggestions.csv
